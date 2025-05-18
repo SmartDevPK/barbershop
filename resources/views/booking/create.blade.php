@@ -121,7 +121,7 @@ https://templatemo.com/tm-585-barber-shop
                                     class="custom-block-bg-overlay-image img-fluid" alt="">
 
                                 <div class="team-info d-flex align-items-center flex-wrap">
-                                    <p class="mb-0">Redo</p>
+                                    <p class="mb-0">pk</p>
 
                                     <ul class="social-icon ms-auto">
                                         <li class="social-icon-item">
@@ -147,7 +147,7 @@ https://templatemo.com/tm-585-barber-shop
                                     class="custom-block-bg-overlay-image img-fluid" alt="">
 
                                 <div class="team-info d-flex align-items-center flex-wrap">
-                                    <p class="mb-0">Sam</p>
+                                    <p class="mb-0">Blessing</p>
 
                                     <ul class="social-icon ms-auto">
                                         <li class="social-icon-item">
@@ -174,11 +174,11 @@ https://templatemo.com/tm-585-barber-shop
                         <div class="row">
 
                             <div class="col-lg-10 col-12 mx-auto">
-                                <h2 class="mb-3">Get 32% Discount</h2>
+                                <h2 class="mb-3">Get 25% Discount</h2>
 
                                 <p>on every second week of the month</p>
 
-                                <strong>Promo Code: BarBerMo</strong>
+                                <strong>Promo Code: BarBerPk</strong>
                             </div>
 
                         </div>
@@ -202,7 +202,7 @@ https://templatemo.com/tm-585-barber-shop
                                     <div class="services-info d-flex align-items-end">
                                         <h4 class="mb-0">Hair cut</h4>
 
-                                        <strong class="services-thumb-price">$36.00</strong>
+                                        <strong class="services-thumb-price">#500.00</strong>
                                     </div>
                                 </div>
                             </div>
@@ -215,7 +215,7 @@ https://templatemo.com/tm-585-barber-shop
                                     <div class="services-info d-flex align-items-end">
                                         <h4 class="mb-0">Washing</h4>
 
-                                        <strong class="services-thumb-price">$25.00</strong>
+                                        <strong class="services-thumb-price">#300.00</strong>
                                     </div>
                                 </div>
                             </div>
@@ -228,7 +228,7 @@ https://templatemo.com/tm-585-barber-shop
                                     <div class="services-info d-flex align-items-end">
                                         <h4 class="mb-0">Shaves</h4>
 
-                                        <strong class="services-thumb-price">$30.00</strong>
+                                        <strong class="services-thumb-price">#300.00</strong>
                                     </div>
                                 </div>
                             </div>
@@ -241,7 +241,7 @@ https://templatemo.com/tm-585-barber-shop
                                     <div class="services-info d-flex align-items-end">
                                         <h4 class="mb-0">Kids</h4>
 
-                                        <strong class="services-thumb-price">$25.00</strong>
+                                        <strong class="services-thumb-price">#300.00</strong>
                                     </div>
                                 </div>
                             </div>
@@ -286,15 +286,9 @@ https://templatemo.com/tm-585-barber-shop
                                                 <input class="form-control" type="time" name="booking_time"
                                                     value="18:30" required />
                                             </div>
-
                                             <div class="col-lg-6 col-12">
-                                                <select class="form-select form-control" name="branche" id="bb-branch"
-                                                    aria-label="Default select example" required>
-                                                    <option value="" disabled selected>Select Branches</option>
-                                                    <option value="Grünberger">Grünberger</option>
-                                                    <option value="Behrenstraße">Behrenstraße</option>
-                                                    <option value="Weinbergsweg">Weinbergsweg</option>
-                                                </select>
+                                                <input type="text" name="branche" id="bb-name" class="form-control"
+                                                    placeholder="Address" required>
                                             </div>
 
                                             <div class="col-lg-6 col-12">
@@ -332,7 +326,7 @@ https://templatemo.com/tm-585-barber-shop
                                     <div class="mb-4">
                                         <h2 class="mb-2">Price List</h2>
 
-                                        <strong>Starting at $25</strong>
+                                        <strong>Starting at #1000</strong>
                                     </div>
 
                                     <div class="price-list-thumb">
@@ -340,7 +334,7 @@ https://templatemo.com/tm-585-barber-shop
                                             Haircut
                                             <span class="price-list-thumb-divider"></span>
 
-                                            <strong>$32.00</strong>
+                                            <strong>$800.00</strong>
                                         </h6>
                                     </div>
 
@@ -349,7 +343,7 @@ https://templatemo.com/tm-585-barber-shop
                                             Beard Trim
                                             <span class="price-list-thumb-divider"></span>
 
-                                            <strong>$26.00</strong>
+                                            <strong>#700.00</strong>
                                         </h6>
                                     </div>
 
@@ -358,7 +352,7 @@ https://templatemo.com/tm-585-barber-shop
                                             Razor Cut
                                             <span class="price-list-thumb-divider"></span>
 
-                                            <strong>$36.00</strong>
+                                            <strong>#600.00</strong>
                                         </h6>
                                     </div>
 
@@ -367,7 +361,7 @@ https://templatemo.com/tm-585-barber-shop
                                             Shaves
                                             <span class="price-list-thumb-divider"></span>
 
-                                            <strong>$30.00</strong>
+                                            <strong>#500.00</strong>
                                         </h6>
                                     </div>
 
@@ -376,7 +370,7 @@ https://templatemo.com/tm-585-barber-shop
                                             Styling / Color
                                             <span class="price-list-thumb-divider"></span>
 
-                                            <strong>$25.00</strong>
+                                            <strong>#500.00</strong>
                                         </h6>
                                     </div>
                                 </div>
@@ -464,14 +458,7 @@ https://templatemo.com/tm-585-barber-shop
                                         </h6>
                                     </div>
                                 </div>
-
-                                <div class="col-lg-12 col-12 mx-auto mt-5 pt-5">
-                                    <iframe class="google-map"
-                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7702.122299518348!2d13.396786616231472!3d52.531268574169616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a85180d9075183%3A0xbba8c62c3dc41a7d!2sBarbabella%20Barbershop!5e1!3m2!1sen!2sth!4v1673886261201!5m2!1sen!2sth"
-                                        width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
-                                        referrerpolicy="no-referrer-when-downgrade"></iframe>
-                                </div>
-
+                                Get 25% Discount
                             </div>
                         </div>
                     </div>
@@ -479,55 +466,26 @@ https://templatemo.com/tm-585-barber-shop
 
                 <footer class="site-footer">
                     <div class="container">
-                        <div class="row">
 
-                            <div class="col-lg-12 col-12">
-                                <h4 class="site-footer-title mb-4">Our Branches</h4>
-                            </div>
+                        <div class="site-footer-bottom">
+                            <div class="container">
+                                <div class="row align-items-center">
 
-                            <div class="col-lg-4 col-md-6 col-11">
-                                <div class="site-footer-thumb">
-                                    <strong class="mb-1">Grünberger</strong>
+                                    <div class="col-lg-8 col-12 mt-4">
+                                        <p class="copyright-text mb-0">Copyright © 2025 Barber Shop
+                                            - Design: <a href="https://templatemo.com" rel="nofollow" target="_blank">PK
+                                                Template</a></p>
+                                    </div>
 
-                                    <p>Grünberger Str. 31, 10245 Berlin, Germany</p>
+                                    <div class="col-lg-2 col-md-3 col-3 mt-lg-4 ms-auto">
+                                        <a href="#section_1" class="back-top-icon smoothscroll" title="Back Top">
+                                            <i class="bi-arrow-up-circle"></i>
+                                        </a>
+                                    </div>
+
                                 </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 col-11">
-                                <div class="site-footer-thumb">
-                                    <strong class="mb-1">Behrenstraße</strong>
-
-                                    <p>Behrenstraße 27, 10117 Berlin, Germany</p>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 col-11">
-                                <strong class="mb-1">Weinbergsweg</strong>
-
-                                <p>Weinbergsweg 23, 10119 Berlin, Germany</p>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="site-footer-bottom">
-                        <div class="container">
-                            <div class="row align-items-center">
-
-                                <div class="col-lg-8 col-12 mt-4">
-                                    <p class="copyright-text mb-0">Copyright © 2036 Barber Shop
-                                        - Design: <a href="https://templatemo.com" rel="nofollow"
-                                            target="_blank">TemplateMo</a></p>
-                                </div>
-
-                                <div class="col-lg-2 col-md-3 col-3 mt-lg-4 ms-auto">
-                                    <a href="#section_1" class="back-top-icon smoothscroll" title="Back Top">
-                                        <i class="bi-arrow-up-circle"></i>
-                                    </a>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
                 </footer>
             </div>
 

@@ -21,3 +21,13 @@ Route::get('/', [BookingController::class, 'create'])
 // Handle form submission
 Route::post('/booking', [BookingController::class, 'store'])
     ->name('booking.store');
+
+Route::middleware([
+    'auth:sanctum',
+    config('jetstream.auth_session'),
+    'verified',
+])->group(function () {
+    Route::get('/dashboard', function () {
+        return view('dashboard');
+    })->name('dashboard');
+});
