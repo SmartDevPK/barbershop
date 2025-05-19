@@ -20,7 +20,7 @@ Route::get('/', [BookingController::class, 'create'])
     ->name('booking.create');
 
 // Handle form submission
-Route::post('/booking', [BookingController::class, 'store'])
+Route::post('/', [BookingController::class, 'store'])
     ->name('booking.store');
 
 Route::middleware([
@@ -34,6 +34,10 @@ Route::middleware([
 });
 
 Route::middleware(['auth', 'admin'])->prefix('admin')->group(function () {
-    Route::get('/dashboard', [AdminController::class, 'index'])->name('admin.dashboard');
+    Route::get('/dashboard', [AdminController::class, 'dashboard'])->name('admin.dashboard');
+    Route::get('/users', [AdminController::class, 'index'])->name('admin.users');
 });
+
+// Ensure the 'admin' middleware is correctly defined in your application
+// and the authenticated user has the 'admin' role.
 Route::post('/login', [AuthenticatedSessionController::class, 'store'])->middleware(['guest']);
