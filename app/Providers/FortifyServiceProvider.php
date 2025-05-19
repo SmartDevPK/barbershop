@@ -28,19 +28,38 @@ class FortifyServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
+        // User actions
         Fortify::createUsersUsing(CreateNewUser::class);
         Fortify::updateUserProfileInformationUsing(UpdateUserProfileInformation::class);
         Fortify::updateUserPasswordsUsing(UpdateUserPassword::class);
         Fortify::resetUserPasswordsUsing(ResetUserPassword::class);
 
+        // Rate limiting login attempts
         RateLimiter::for('login', function (Request $request) {
-            $throttleKey = Str::transliterate(Str::lower($request->input(Fortify::username())).'|'.$request->ip());
+            $throttleKey = Str::transliterate(
+                Str::lower($request->input(Fortify::username())) . '|' . $request->ip()
+            );
 
             return Limit::perMinute(5)->by($throttleKey);
         });
 
+        // Rate limiting two-factor attempts
         RateLimiter::for('two-factor', function (Request $request) {
             return Limit::perMinute(5)->by($request->session()->get('login.id'));
+        });
+
+        // Custom authentication logic
+        Fortify::authenticateUsing(function (Request $request) {
+            $user = \App\Models\User::where('email', $request->email)->first();
+
+            if ($user && \Hash::check($request->password, $user->password)) {
+                // Login successful - you can add custom logic here
+
+                return $user;
+            }
+
+            // Return null if authentication fails
+            return null;
         });
     }
 }
